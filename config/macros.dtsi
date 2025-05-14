@@ -222,3 +222,24 @@
     bindings = <&mkp MB1 &mkp MB1>;
     display-name = "Double Click";
   };
+
+  Debug_Print: Debug_Print {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp P &kp R &kp I &kp N &kp T &kp LPAR &kp DQT &kp F &kp SPACE &kp COLON &kp LBRC &kp RBRC &kp DQT &kp RPAR &kp LEFT &kp LEFT &kp LEFT &kp LEFT &kp LEFT &kp LEFT>;
+    display-name = "Debug Print";
+  };
+
+  Git_Add: Git_Add {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp G &kp I &kp T &kp SPACE &kp A &kp D &kp D &kp SPACE &kp DOT &kp ENTER>;
+    display-name = "Git Add";
+  };
+
+  Git_Commit: Git_Commit {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp G &kp I &kp T &kp SPACE &kp C &kp O &kp M &kp M &kp I &kp T &kp SPACE &kp MINUS &kp M &kp SPACE &kp DQT &kp DQT &kp LEFT>;
+    display-name = "Git Commit";
+  };

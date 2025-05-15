@@ -226,7 +226,7 @@
   Debug_Print: Debug_Print {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
-    bindings = <&kp P &kp R &kp I &kp N &kp T &kp LPAR &kp DQT &kp F &kp SPACE &kp COLON &kp LBRC &kp RBRC &kp DQT &kp RPAR &kp LEFT &kp LEFT &kp LEFT &kp LEFT &kp LEFT &kp LEFT>;
+    bindings = <&kp P &kp R &kp I &kp N &kp T &kp LPAR &kp F &kp DQT &kp COLON &kp LBRC &kp RBRC &kp DQT &kp RPAR &kp LEFT &kp LEFT &kp LEFT &kp LEFT &kp LEFT &kp LEFT>;
     display-name = "Debug Print";
   };
 
@@ -242,4 +242,18 @@
     #binding-cells = <0>;
     bindings = <&kp G &kp I &kp T &kp SPACE &kp C &kp O &kp M &kp M &kp I &kp T &kp SPACE &kp MINUS &kp M &kp SPACE &kp DQT &kp DQT &kp LEFT>;
     display-name = "Git Commit";
+  };
+
+  Git_Push: Git_Push {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp G &kp I &kp T &kp SPACE &kp P &kp U &kp S &kp H &kp SPACE &kp O &kp R &kp I &kp G &kp I &kp N &kp ENTER>;
+    display-name = "Git Push";
+  };
+
+  Git_Status: Git_Status {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp G &kp I &kp T &kp SPACE &kp S &kp T &kp A &kp T &kp U &kp S &kp ENTER>;
+    display-name = "Git Status";
   };

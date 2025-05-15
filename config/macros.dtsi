@@ -226,7 +226,7 @@
   Debug_Print: Debug_Print {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
-    bindings = <&kp P &kp R &kp I &kp N &kp T &kp LPAR &kp F &kp DQT &kp COLON &kp LBRC &kp RBRC &kp DQT &kp RPAR &kp LEFT &kp LEFT &kp LEFT &kp LEFT &kp LEFT &kp LEFT>;
+    bindings = <&kp P &kp R &kp I &kp N &kp T &kp LPAR &kp F &kp DQT &kp COLON &kp LBRC &kp RBRC &kp DQT &kp RPAR &kp LEFT &kp LEFT &kp LEFT &kp LEFT &kp LEFT>;
     display-name = "Debug Print";
   };
 
